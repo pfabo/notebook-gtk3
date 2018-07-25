@@ -1,0 +1,30 @@
+GtkWindow {
+    background-color: #ADD8E6;
+}
+
+GtkButton {                         /* parametere pre vsetky buttony*/
+    border-radius: 10px;
+    border-style: double;
+    border-width: 1px;
+    color: #FC6565;
+    background: #F6FB9B;
+}
+
+GtkButton:hover {    
+      color: red;
+      transition: 100ms ease-in-out;
+      background-color: yellow;
+    }
+
+
+GtkButton:active {             
+      transition: 100ms ease-in-out;
+      color: white;
+      background-color: #FC6565;
+    } 
+    
+    
+GtkButton#btn3:active {
+      color: blue;
+      background-color: aqua;
+    }
